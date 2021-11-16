@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main(void){
-    int idade, x;
-    float idade1=0, idade2=0, idade3=0, idade4=0, idade5=0;
+    int x;
+    float idade, idade1=0, idade2=0, idade3=0, idade4=0, idade5=0;
     for(x=1;x<=15;x++){
         printf("Digite a idade: \n");
         scanf("%f", &idade);
-         if(idade<=15){
+         if(idade<15){
             idade1= idade1+1;
          }
          if(idade>=16 && idade<=30){
