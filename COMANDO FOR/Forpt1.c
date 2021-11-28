@@ -6,7 +6,7 @@ int main(void){
     for(x=1;x<=15;x++){
         printf("Digite a idade: \n");
         scanf("%f", &idade);
-         if(idade<15){
+         if(idade<=15){
             idade1= idade1+1;
          }
          if(idade>=16 && idade<=30){
