@@ -17,7 +17,7 @@ int main(void){
     }
 
     if(opt==2){
-        for(cont=0;cont<=200;cont=0){
+        for(cont=0;cont<=200;cont=cont){
        printf("Qual produto voce deseja?\n");
        printf("1 para tomate, 2 para cebola, 3 para cenoura, 4 para abobrinha, 5 para brocolis?\n");
        scanf("%d",&prod); 
@@ -40,12 +40,16 @@ int main(void){
        }
        printf("Voce deseja continuar a operacao? 1 para sim 2 para nao\n");
        scanf("%d", &opt2);
-       if(opt2=1){}
+       if(opt2=1){
+           printf("O total da compra foi: %f\n", total);
+       }
 
-       if (opt2=2){
-           cont=200;
+       if(opt2=2){
+           return (0);
        }
-       }
+
+
     }
-    printf("O total da compra foi: %f\n", total);
+    }
+    
 }
