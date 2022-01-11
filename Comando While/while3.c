@@ -5,7 +5,7 @@ int main(void){
     int cod_cidade=0, cod_cidademaior=0, cod_cidademenor=0, veic_passeio=0, acidente=0, c=1, maioracidente=0, menoracidente=1000, soma_veic=0, soma_acidentes=0;
     while(c<=5){
         printf("Digite o codigo da cidade: \n");
-        scanf("%i", &cod_cidade);
+        scanf("%d", &cod_cidade);
         printf("Digite a quantidade de veiculos de passeio: \n");
         scanf("%d", &veic_passeio);
         printf("Digite a quantidade de acidentes de transito com vitimas: \n");
