@@ -167,6 +167,7 @@ main(){
         if(eduardo>lucca && eduardo>ana && eduardo>duda){
             printf("O Eduardo foi o vencedor");
         }
+        printf("=-=-=-=-=-=-=-=-=-=-=-=-=");
 
 
 }

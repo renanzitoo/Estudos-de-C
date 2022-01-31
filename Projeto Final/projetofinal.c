@@ -52,6 +52,7 @@ int main (void){
     if(op==4){
         c=13;
     }
+    
     else{
         printf("Numero invalido");
     }
